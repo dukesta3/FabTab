@@ -39,6 +39,7 @@
             <Button Content="Open NoXaml Window" Click="Button_Click_5"/>
             <Button Content="MVVM Window" Click="Button_Click_6"/> 
             <Button Content="Add TabItem With Custom Header" Click="Button_Click_7"/>
+            <Button Content="Open Built In Add Tab Window" Click="OpenBuiltInAddTabWindow"/>
         </StackPanel>
         <tab:FabTabControl DockPanel.Dock="Left" x:Name="tabControl" MinWidth="300" 
                            ContentOpacityMask="{StaticResource mask}" ShowDefaultTransitionAnimation="False"

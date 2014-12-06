@@ -98,6 +98,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuiltInAddTabWindow.xaml.cs">
+      <DependentUpon>BuiltInAddTabWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CancelCloseEventWindow.xaml.cs">
       <DependentUpon>CancelCloseEventWindow.xaml</DependentUpon>
     </Compile>
@@ -150,6 +153,10 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="BuiltInAddTabWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CancelCloseEventWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

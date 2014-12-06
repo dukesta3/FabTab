@@ -1,0 +1,8 @@
+﻿<Window x:Class="SampleProject.BuiltInAddTabWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BuiltInAddTabWindow" Height="300" Width="300">
+    <Grid>
+        <TextBlock>Placeholder for BuiltIn Add Tab</TextBlock>
+    </Grid>
+</Window>

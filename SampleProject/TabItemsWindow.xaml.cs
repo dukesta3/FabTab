@@ -112,6 +112,10 @@ namespace SampleProject
 
         }
 
-        
+
+        private void OpenBuiltInAddTabWindow(object sender, RoutedEventArgs e)
+        {
+            new BuiltInAddTabWindow().Show();
+        }
     }
 }
